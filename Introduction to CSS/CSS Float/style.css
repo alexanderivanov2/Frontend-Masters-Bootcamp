@@ -1,27 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
 article {
     width: 30rem;
     border: 3px solid green;
+    background-color: #DFF5CE;
     margin: 0 auto;
-  }
+    
+}
   
-  article:after {
+article::after {
     content: '';
     display: table;
     clear: both;
-  }
+}
 
-  h1 {
+h1 {
       text-align: center;
-  }
+}
+
+p {
+      padding: 0 1rem;
+}
   
-  .floatleft {
+.floatleft {
     float: left;
-    margin-right: 1rem;
-    margin-bottom: 0 1rem 1rem 0;
+    margin: 0 1rem 1rem 0;
     clear: none;
-  }
+    border: 2px solid gold;
+}
   
-  .floatright {
+blockquote {
+      text-align: center;
+}
+
+
+.last_p{
+    margin-bottom: 1rem;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.last_p img{
+        border: 2px solid gold;
+}
+
+.floatright {
     float: right;
-    clear: none;
-  }
+}
