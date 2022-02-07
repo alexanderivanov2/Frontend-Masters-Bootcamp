@@ -37,12 +37,8 @@ header::after {
 }
 
 
-
 .float_img {
     float: left;
     margin-right: 1rem;
 }
 
-.bottom_hr {
-    float:left
-}
