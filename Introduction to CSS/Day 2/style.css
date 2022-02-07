@@ -3,12 +3,19 @@
 }
 
 body {
+    display: block;
     width: 50rem;
     margin: auto;
     background-color: aqua;
 }
 
 body::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header::after {
     content: "";
     display: table;
     clear: both;
@@ -22,6 +29,20 @@ body::after {
 }
 
 
-.firstblockquote {
-    margin-top: 7rem;
+.first_blockquote {
+    margin: 1rem 0;
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.float_img {
+    float: left;
+    margin-right: 1rem;
+}
+
+.bottom_hr {
+    float:left
 }
