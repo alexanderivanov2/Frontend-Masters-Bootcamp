@@ -11,33 +11,55 @@
 			<h1>Alien Abduction Order Form</h1>
 			<p>Fill out the form below to place an order for an alien abduction by one of our fine UFOs.</p>
 		<form>
-			<h2>Your contact information</h2>
-			<label for="name">Your name</label>
-			<input type="text" id="name" name="name">
-			<label for="phone">Phone number</label>
-			<input type="tel" id="phone" name="phone">
-			<label for="email">Email</label>
-			<input type="email" id="email" name="phone">
-
-			<h2>About your abduction </h2>
-			<p>Requested  date</p>
-			<p>How many people would you like abducted?</p>
-			<p>What type of UFO do you prefer?</p>
-				<ul>
-					<li>Classic oval UFO</li>
-					<li>Star Wars-style Imperial cruiser</li>
-					<li>Battlestar Galactica-style Viper</li>
-					<li>Borg-style cube</li>
-				</ul> 
-			<p>What type of abduction experience do you want?</p>
-				<ul>
-					<li>Tour of the solar system</li>
-					<li>Alien dinner and discussion</li>
-					<li>Alien dance lessons</li>
-					<li>Whale watching</li>
-				</ul>
-			<p>Special requests:</p>
-			<p>Add me to your email list</p>	
+			<fieldset>
+				<legend>Your contact information</legend>
+				
+				<label for="name">Your name</label>
+				<input type="text" id="name" name="name">
+				
+				<label for="phone">Phone number</label>
+				<input type="tel" id="phone" name="phone" placeholder="Don't forget your area code">
+				
+				<label for="email">Email</label>
+				<input type="email" id="email" name="phone">
+			</fieldset>
+			<fieldset>
+				<legend>About your abduction </legend>
+				<label for="req_date">Requested  date</label>
+				<input id="req_date" name="req_date" type="date">
+				<label for="qty_abducted">How many people would you like abducted?</label>
+				<input id="qty_abducted" name="qty_abducted" type="number" min="0">
+				<p>What type of UFO do you prefer?</p>
+				<label>
+					<input type="radio" name="ufo_type" value="classic"> Classic oval UFO
+				</label>
+				<label>
+					<input type="radio" name="ufo_type" value="star_wars"
+					checked>Star Wars-style Imperial cruiser
+				</label>
+				<label>
+					<input type="radio" name="ufo_type" value="battlestar">Battlestar Galactica-style Viper
+				</label>
+				<label>
+					<input type="radio" name="ufo_type" value="borg">Borg-style cube
+				</label>
+			 
+				<label for="abtype">What type of abduction experience do you want?</label>
+				<select id="abtype" name="abtype">
+					<option selected>Select one...</option>
+					<option value="tour">Tour of the solar system</option>
+					<option value="dinner_and_discussion">Alien dinner and discussion</option>
+					<option value="dance_lessons">Alien dance lessons</option>
+					<option value="whale">Whale watching</option>
+				</select>
+			
+				<label for="comments">Special requests:</label>
+				<textarea id="comments" name="comments" placeholder="Tell me everything..."></textarea>
+				<label>
+					<input type="checkbox"  name="subscribe" value="subscribe" checked> Add me to your email list!
+				</label>	
+			</fieldset>
+			<button type="submit">Submit</button>
 		</form>	
 		</section>
 		<aside>
