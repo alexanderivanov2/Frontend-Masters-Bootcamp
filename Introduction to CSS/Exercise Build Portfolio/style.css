@@ -7,7 +7,7 @@ html {
 }
 
 body {
-    background-color: #026873;
+    /* background-color: #026873; */
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -38,14 +38,17 @@ body {
     color: #04BF8A;
 }
 
+section {
+    padding: 5rem 0;
+}
+
 .home {
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    justify-content: space-around;
-    padding: 5rem 0;
-    margin: auto;
-    width: 50rem;
+    justify-content: center;
+    background-color: #026873;
+    
 }
 
 .img_profile {
@@ -66,3 +69,96 @@ body {
     font-style: italic;
     font-size: 1.3rem;
 }
+
+.education {
+    background-color: wheat;
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.education div {
+    background-color: #026873;
+    padding: 1rem;
+    width: 25rem;
+    height: 15rem;
+    border-radius: 1rem;
+    color: wheat;
+}
+
+.education h2 {
+    text-align: center;
+    font-size: 1.5rem;
+}
+.education ul{
+    list-style-type: none;
+    padding: 0.2rem, 0;
+    border: 2px solid wheat;
+    border-radius: 1rem;
+}
+
+.education li {
+    padding: 0.2rem 2.5rem;
+}
+
+.skills {
+    background-color: #026873;
+    text-align: center;
+}
+
+.li_skills {
+    display: inline-block;
+    padding: 0;
+    list-style-type: none;
+}
+
+.skills li {
+    margin-top: 1rem;
+    border: 2px solid wheat;
+    padding: 1rem 1.2rem;
+    width: 25rem;
+}
+
+.projects {
+    display: flex;
+    flex-flow: row nowrap;
+    background-color: wheat;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts {
+    background-color: #026873;
+    padding: 5rem 0;
+}
+.contacts ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    list-style-type: none;
+}
+
+.contacts li {
+    font-size: 1.5rem;
+    flex-basis: 15%;
+}
+
+.contacts a {
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+.contacts a:visited {
+    color: wheat
+}
+.contacts a:hover {
+    background-color: wheat;
+    color: #026873;
+}
+
