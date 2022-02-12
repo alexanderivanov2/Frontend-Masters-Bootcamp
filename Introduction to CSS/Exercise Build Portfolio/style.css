@@ -164,3 +164,13 @@ section {
     color: #026873;
 }
 
+body.contact {
+    background-color: #026873;
+    margin: auto;
+    width: 45rem;
+    color: wheat;
+}
+
+fieldset {
+    border-color: wheat;
+}
