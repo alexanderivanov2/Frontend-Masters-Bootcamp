@@ -106,6 +106,7 @@ section {
 .skills {
     background-color: #026873;
     text-align: center;
+    color: wheat;
 }
 
 .li_skills {
@@ -117,6 +118,7 @@ section {
 .skills li {
     margin-top: 1rem;
     border: 2px solid wheat;
+    border-radius: 1rem;
     padding: 1rem 1.2rem;
     width: 25rem;
 }

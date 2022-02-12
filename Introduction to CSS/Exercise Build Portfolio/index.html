@@ -6,26 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
         <nav class="sticky_nav">
             <a href="#home">Home</a>
-            <a href="#">Education</a>
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Contacts</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contacts">Contacts</a>
         </nav>
         
     </header>
-    <section class="home">
+    <section class="home" id="home">
         <img class="img_profile"src="img/profile_pic.jfif">
         <blockquote class="home_blockq">
             <p>"I am still learning."</p>
             <cite>Michelangelo, age 87</cite>
         </blockquote>
     </section>
-    <section class="education">
+    <section class="education" id="education">
         <div class="softuni">
             <h2>Softuni</h2>
             <ul>
@@ -43,7 +44,7 @@
             </ul>
         </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
         <h2>Personal Skills: </h2>
         <ul class="li_skills">
             <li>Team Player</li>
@@ -53,15 +54,16 @@
             <li>Responsible</li>
         </ul>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
         <img src="img/img_under_construction.png">
         <h2>Under Construction...</h2>
     </section>
-    <footer class="contacts">
+    <footer class="contacts" id="contacts">
         <ul>
-            <li><a href="https://www.linkedin.com/in/alexander-ivanov-ab6821227/" target="_blank">LinkedIn</a></li>
-            <li><a>Github</a></li>
-            <li><a>Contact with me</a></li>
+            <li><i class="fa fa-linkedin-square" aria-hidden="true"></i><a href="https://www.linkedin.com/in/alexander-ivanov-ab6821227/" target="_blank">LinkedIn</a></li>
+            <li><i class="fa fa-github-square" aria-hidden="true"></i>
+                <a href="https://github.com/alexanderivanov2?tab=overview&from=2022-02-01&to=2022-02-12" target="_blank">Github</a></li>
+            <li><i class="fa fa-envelope" aria-hidden="true"></i><a>Contact with me</a></li>
         </ul>
     </footer>
 </body>
