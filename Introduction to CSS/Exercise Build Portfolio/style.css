@@ -37,3 +37,13 @@ body {
     background-color: #363432;
     color: #04BF8A;
 }
+
+.home {
+    padding: 5rem 0;
+    margin: auto;
+    width: 50rem;
+}
+
+.img_profile {
+    border-radius: 50%;
+}
