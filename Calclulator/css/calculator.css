@@ -9,6 +9,7 @@ body {
   margin: auto;
   width: 50rem;
 }
+
 .wrapper {
     width: 400px;
     border: 2px solid black;
@@ -18,57 +19,32 @@ body {
 
 .screen {
     flex-basis: 100%;
+    padding: 1.5rem;
+    height: 100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    text-align: end;
     background-color: #000000;
     color: #ffffff;
-    text-align: end;
-    height: 100px;
-    font-size: 40px;
     cursor: pointer;
-    padding: 1.5rem;
-    font-family: 'Courier New', Courier, monospace;
 }
+
 
 .calc-buttons {
     flex-basis: 100%;
-}
+} 
 
 .calc-button-row{
     display: flex;
     flex-flow: row wrap;
 }
 
-.calc-button-triple {
-    flex-basis: 75%;
-    background-color:#d8d9db;
-    height: 100px;
-    font-size: 40px;
-    cursor: pointer;
-    border: 2px solid black;
-}
-
-.calc-button-triple:hover {
-    background-color:  #ebebeb;
-}
-
-.calc-button-double {
-    flex-basis: 50%;
-    background-color: #d8d9db;
-    height: 100px;
-    font-size: 40px;
-    cursor: pointer;
-    border: 2px solid black;
-}
-
-.calc-button-double:hover {
-    background-color:  #ebebeb;
-}
-
 .calc-button {
     flex-basis: 25%;
-    background-color: #d8d9db;
-    border: 2px solid black;
     height: 100px;
     font-size: 40px;
+    background-color: #d8d9db;
+    border: 2px solid black;
     cursor: pointer;
 }
 
@@ -80,8 +56,15 @@ body {
     background-color: #bbbcbe;
 }
 
+.triple {
+    flex-basis: 75%;
+}
+
+.double {
+    flex-basis: 50%;
+}
+
 .calc-button:last-child {
-    flex-basis: 25%;
     background-color: #df974c;
     color: #ffffff;
     cursor: pointer;
