@@ -13,12 +13,9 @@ body {
 .wrapper {
     width: 400px;
     border: 2px solid black;
-    display: flex;
-    flex-flow: row wrap;
 }
 
 .screen {
-    flex-basis: 100%;
     padding: 1.5rem;
     height: 100px;
     font-family: 'Courier New', Courier, monospace;
@@ -28,11 +25,6 @@ body {
     color: #ffffff;
     cursor: pointer;
 }
-
-
-.calc-buttons {
-    flex-basis: 100%;
-} 
 
 .calc-button-row{
     display: flex;
