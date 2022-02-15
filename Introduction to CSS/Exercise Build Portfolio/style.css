@@ -33,6 +33,10 @@ body {
     font-size: 1.3rem;
 }
 
+.sticky_nav a:last-child{
+    margin-right: 0;
+}
+
 .sticky_nav a:hover {
     background-color: #363432;
     color: #04BF8A;
@@ -51,6 +55,9 @@ section {
     
 }
 
+blockquote {
+    color: wheat;
+}
 .img_profile {
     padding: 5rem 0;
     border-radius: 50%; 
@@ -129,6 +136,10 @@ section {
     background-color: wheat;
     justify-content: center;
     align-items: center;
+}
+
+.projects h2 {
+    color: #026873;
 }
 
 .contacts {
